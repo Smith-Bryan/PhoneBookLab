@@ -15,6 +15,7 @@ public class Person {
 
     public Person(String name) {
         //  Need Test Case
+        this.name = name
 
     }
 
@@ -39,10 +40,13 @@ public class Person {
     }
     public void addName(String name){
         //  Need Test Case
+        List<String> listOfNames
+                listOfNames.add(name);
     }
 
     public void removeName(String name){
         //  Need Test Case
+        listOfNames.remove(name);
     }
 
     public List<String> getListOfNames() {
