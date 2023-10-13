@@ -15,7 +15,7 @@ public class Person {
 
     public Person(String name) {
         //  Need Test Case
-        this.name = name
+        this.name = name;
 
     }
 
@@ -40,7 +40,7 @@ public class Person {
     }
     public void addName(String name){
         //  Need Test Case
-        List<String> listOfNames
+        List<String> listOfNames = null;
                 listOfNames.add(name);
     }
 
